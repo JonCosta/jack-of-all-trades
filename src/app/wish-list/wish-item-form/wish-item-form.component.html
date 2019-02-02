@@ -1,0 +1,23 @@
+<h2>New Item</h2>
+
+<form autocomplete="off" [formGroup]="formWishItem">
+
+  <mat-form-field>
+    <input matInput formControlName="name" placeholder="Name">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput formControlName="price" placeholder="Price">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput formControlName="pictureUrl" placeholder="Picture URL">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-select formControlName="category" placeholder="Category">
+      <mat-option value="option">Maior Preço</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+</form>

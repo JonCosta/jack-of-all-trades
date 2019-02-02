@@ -1,0 +1,17 @@
+<mat-card>
+    
+    <mat-card-header>
+        <mat-card-title>{{wishItem.name}}</mat-card-title>
+        <mat-card-subtitle>Price: {{wishItem.price}}</mat-card-subtitle>
+    </mat-card-header>
+    
+    <mat-card-content>
+        <!-- IMAGEM DO ITEM -->
+    </mat-card-content>
+    
+    <mat-card-actions align="start">
+        <button mat-raised-button color="primary" (click)="edit(wishItem)">Edit</button>
+        <button mat-raised-button color="warn" (click)="remove(wishItem)">Remove</button>    
+    </mat-card-actions>
+
+</mat-card>
